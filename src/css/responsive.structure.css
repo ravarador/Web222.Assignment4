@@ -1,0 +1,38 @@
+/* START OF FLEX STRUCTURE */
+
+body, footer {
+    flex-direction: column;
+}
+
+body, nav, section, footer {
+    display: flex;
+}
+
+a {
+    flex-grow: 1;
+}
+
+#left, #right {
+    flex-grow: 1;
+    margin: 1%;
+}
+
+.social-media-icons {
+    flex-direction: row;
+}
+
+footer {
+    align-items: center;
+}
+
+/* END OF FLEX STRUCTURE */
+
+/* START OF RESPONSIVE CSS */
+
+@media (max-width: 800px) {
+    nav, section, footer {
+        flex-direction: column;
+    }
+}
+
+/* END OF RESPONSIVE CSS */

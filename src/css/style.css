@@ -1,0 +1,28 @@
+figure, video, iframe {
+    padding: 1%;
+    width: 100%;
+}
+
+figcaption {
+    padding-left:1%;
+}
+
+footer {
+    border-top: 1px solid black;
+    background-color: whitesmoke;
+}
+
+#nav-logo {
+    background-image: url("../media/JRPA.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#seneca-logo {
+    height:20px;
+}
+
+#seneca-image {
+    width: 100%;
+    height: auto;
+}
